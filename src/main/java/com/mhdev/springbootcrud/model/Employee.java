@@ -23,11 +23,13 @@ public class Employee {
 	
 	@Column(name  = "email_id")
 	private String emailId;
-	
+
+	// Método construtor vazio
 	public Employee() {
 		
 	}
 
+	// Método construtor com campos
 	public Employee(String firstName, String lastName, String emailId) {
 		super();
 		this.firstName = firstName;
